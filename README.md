@@ -1,5 +1,14 @@
-![banner](https://github.com/user-attachments/assets/3584b592-33dd-4fb4-91d4-47b62b34806c)
 
+- 同步官方更新：
+  - git fetch upstream
+  - git checkout main
+  - git merge upstream/main（或 git rebase upstream/main）
+  - git push origin main
+- 新功能开发：
+    - git checkout -b feature/xxx
+    - 修改后提交 git commit
+    - 推送到私人仓库 git push origin feature/xxx
+    - 在私人仓库或团队协作中使用 Pull Request。
 <div align="center">
 
 # Open-source IoT platform for data collection, processing, visualization, and device management.
